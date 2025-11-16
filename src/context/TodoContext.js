@@ -19,8 +19,9 @@
  })
 
 
- export const useTodo =()=>{
-    useContext(TodoContext)
- }
+
+export const useTodo = () => {
+  return useContext(TodoContext);
+}
 
  export const TodoProvider =TodoContext.Provider
